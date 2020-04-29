@@ -15,6 +15,7 @@ namespace TestConsole2012
 
         static void Main(string[] args)
         {
+            // code added to git on 29-04-2020
             #region ManualReset Event
             Console.WriteLine("Starting Main thread");
             new Thread(DoSomeWork).Start();
